@@ -1,0 +1,2 @@
+# Type 'string' is not assignable to type 'number'
+This bug demonstrates a common type error in TypeScript. The error occurs because the function `add` and `subtract` are defined to only accept numbers.   If you pass a string, you will get a type error. The solution is to add type guards or checks to ensure you pass in numbers only.
